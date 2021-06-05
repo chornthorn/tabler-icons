@@ -21,16 +21,16 @@ class TablerIcons {
   static const IconData arrow_bar_up = const TablerIconData(0xea10);
   static const IconData arrow_down_circle = const TablerIconData(0xea11);
   static const IconData arrow_down_left_circle = const TablerIconData(0xea12);
-  static const IconData arrow_down_left = const TablerIconData(0xea13);
-  static const IconData arrow_down_right_circle = const TablerIconData(0xea14);
-  static const IconData arrow_down_right = const TablerIconData(0xea15);
-  static const IconData arrow_down = const TablerIconData(0xea16);
-  static const IconData arrow_forward = const TablerIconData(0xea17);
-  static const IconData arrow_left_circle = const TablerIconData(0xea18);
-  static const IconData arrow_left = const TablerIconData(0xea19);
-  static const IconData arrow_narrow_down = const TablerIconData(0xea1a);
-  static const IconData arrow_narrow_left = const TablerIconData(0xea1b);
-  static const IconData arrow_narrow_right = const TablerIconData(0xea1c);
+  // static const IconData arrow_down_left = const TablerIconData(0xea13);
+  // static const IconData arrow_down_right_circle = const TablerIconData(0xea14);
+  // static const IconData arrow_down_right = const TablerIconData(0xea15);
+  // static const IconData arrow_down = const TablerIconData(0xea16);
+  // static const IconData arrow_forward = const TablerIconData(0xea17);
+  // static const IconData arrow_left_circle = const TablerIconData(0xea18);
+  // static const IconData arrow_left = const TablerIconData(0xea19);
+  // static const IconData arrow_narrow_down = const TablerIconData(0xea1a);
+  // static const IconData arrow_narrow_left = const TablerIconData(0xea1b);
+  // static const IconData arrow_narrow_right = const TablerIconData(0xea1c);
   static const IconData arrow_narrow_up = const TablerIconData(0xea1d);
   static const IconData arrow_right_circle = const TablerIconData(0xea1e);
   static const IconData arrow_right = const TablerIconData(0xea1f);
@@ -45,22 +45,22 @@ class TablerIcons {
   static const IconData arrows_maximize = const TablerIconData(0xea28);
   static const IconData arrows_minimize = const TablerIconData(0xea29);
   static const IconData artboard = const TablerIconData(0xea2a);
-  static const IconData at = const TablerIconData(0xea2b);
-  static const IconData award = const TablerIconData(0xea2c);
+  // static const IconData at = const TablerIconData(0xea2b);
+  // static const IconData award = const TablerIconData(0xea2c);
   static const IconData backspace = const TablerIconData(0xea2d);
   static const IconData ban = const TablerIconData(0xea2e);
-  static const IconData battery_1 = const TablerIconData(0xea2f);
-  static const IconData battery_2 = const TablerIconData(0xea30);
-  static const IconData battery_3 = const TablerIconData(0xea31);
-  static const IconData battery_4 = const TablerIconData(0xea32);
-  static const IconData battery_charging = const TablerIconData(0xea33);
-  static const IconData battery = const TablerIconData(0xea34);
-  static const IconData bell = const TablerIconData(0xea35);
-  static const IconData bike = const TablerIconData(0xea36);
-  static const IconData bluetooth = const TablerIconData(0xea37);
-  static const IconData bolt = const TablerIconData(0xea38);
-  static const IconData book = const TablerIconData(0xea39);
-  static const IconData bookmark = const TablerIconData(0xea3a);
+  // static const IconData battery_1 = const TablerIconData(0xea2f);
+  // static const IconData battery_2 = const TablerIconData(0xea30);
+  // static const IconData battery_3 = const TablerIconData(0xea31);
+  // static const IconData battery_4 = const TablerIconData(0xea32);
+  // static const IconData battery_charging = const TablerIconData(0xea33);
+  // static const IconData battery = const TablerIconData(0xea34);
+  // static const IconData bell = const TablerIconData(0xea35);
+  // static const IconData bike = const TablerIconData(0xea36);
+  // static const IconData bluetooth = const TablerIconData(0xea37);
+  // static const IconData bolt = const TablerIconData(0xea38);
+  // static const IconData book = const TablerIconData(0xea39);
+  // static const IconData bookmark = const TablerIconData(0xea3a);
   static const IconData border_all = const TablerIconData(0xea3b);
   static const IconData border_bottom = const TablerIconData(0xea3c);
   static const IconData border_horizontal = const TablerIconData(0xea3d);
@@ -75,21 +75,21 @@ class TablerIcons {
   static const IconData briefcase = const TablerIconData(0xea46);
   static const IconData bucket = const TablerIconData(0xea47);
   static const IconData bug = const TablerIconData(0xea48);
-  static const IconData building_arch = const TablerIconData(0xea49);
-  static const IconData building_bridge_2 = const TablerIconData(0xea4a);
+  // static const IconData building_arch = const TablerIconData(0xea49);
+  // static const IconData building_bridge_2 = const TablerIconData(0xea4a);
   static const IconData building_bridge = const TablerIconData(0xea4b);
-  static const IconData building_church = const TablerIconData(0xea4c);
-  static const IconData building_hospital = const TablerIconData(0xea4d);
-  static const IconData building_store = const TablerIconData(0xea4e);
-  static const IconData building = const TablerIconData(0xea4f);
-  static const IconData bulb_off = const TablerIconData(0xea50);
-  static const IconData bulb = const TablerIconData(0xea51);
-  static const IconData calendar_event = const TablerIconData(0xea52);
-  static const IconData calendar = const TablerIconData(0xea53);
-  static const IconData camera = const TablerIconData(0xea54);
-  static const IconData cash = const TablerIconData(0xea55);
-  static const IconData cast = const TablerIconData(0xea56);
-  static const IconData chart_area_line = const TablerIconData(0xea57);
+  // static const IconData building_church = const TablerIconData(0xea4c);
+  // static const IconData building_hospital = const TablerIconData(0xea4d);
+  // static const IconData building_store = const TablerIconData(0xea4e);
+  // static const IconData building = const TablerIconData(0xea4f);
+  // static const IconData bulb_off = const TablerIconData(0xea50);
+  // static const IconData bulb = const TablerIconData(0xea51);
+  // static const IconData calendar_event = const TablerIconData(0xea52);
+  // static const IconData calendar = const TablerIconData(0xea53);
+  // static const IconData camera = const TablerIconData(0xea54);
+  // static const IconData cash = const TablerIconData(0xea55);
+  // static const IconData cast = const TablerIconData(0xea56);
+  // static const IconData chart_area_line = const TablerIconData(0xea57);
   static const IconData chart_area = const TablerIconData(0xea58);
   static const IconData chart_bar = const TablerIconData(0xea59);
   static const IconData chart_candle = const TablerIconData(0xea5a);
@@ -658,21 +658,6 @@ class TablerIcons {
   static const IconData question_mark = const TablerIconData(0xec9d);
   static const IconData select = const TablerIconData(0xec9e);
   static const IconData subtask = const TablerIconData(0xec9f);
-  static const IconData
-
-  2
-
-  fa
-
-  =
-
-  const TablerIconData
-
-  (
-
-  0xeca0
-
-  );
 
   static const IconData brand_tailwind = const TablerIconData(0xeca1);
   static const IconData loader_quarter = const TablerIconData(0xeca2);
@@ -721,21 +706,6 @@ class TablerIcons {
   static const IconData wave_saw_tool = const TablerIconData(0xecd3);
   static const IconData wave_sine = const TablerIconData(0xecd4);
   static const IconData wave_square = const TablerIconData(0xecd5);
-  static const IconData
-
-  3
-
-  d_cube_sphere
-
-  =
-
-  const TablerIconData
-
-  (
-
-  0xecd7
-
-  );
 
   static const IconData brand_windows = const TablerIconData(0xecd8);
   static const IconData cloud_fog = const TablerIconData(0xecd9);
