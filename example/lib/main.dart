@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:tabler_icons/tabler_icons.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -12,14 +14,16 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+      home: const MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
+  const MyHomePage({Key? key}) : super(key: key);
+
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  State<MyHomePage> createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
@@ -27,36 +31,25 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(icon: Icon(TablerIcons.menu), onPressed: () {}),
-        title: Text('Tabler Icon Demo'),
+        leading:
+            IconButton(icon: const Icon(TablerIcons.heading), onPressed: () {}),
+        title: const Text('Tabler Icon Demo'),
         actions: <Widget>[
-          IconButton(icon: Icon(TablerIcons.menu_2), onPressed: () {})
+          IconButton(icon: const Icon(TablerIcons.menu_2), onPressed: () {})
         ],
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Row(
-              children: <Widget>[
-                Icon(TablerIcons.arrow_back),
-                SizedBox(width: 10.0),
-                Text('Arrow Back Icon')
-              ],
-            ),
-            Row(
-              children: <Widget>[
-                Icon(TablerIcons.heart),
-                SizedBox(width: 10.0),
-                Text('Heart Icon')
-              ],
-            ),
+          children: const <Widget>[
+            Icon(TablerIcons.heart),
+            Icon(TablerIcons.heart, color: Colors.red, size: 200),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Icon(TablerIcons.plus),
+        child: const Icon(TablerIcons.plus),
       ),
     );
   }

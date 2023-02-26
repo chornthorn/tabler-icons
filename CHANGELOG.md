@@ -1,3 +1,7 @@
+## 2.5.0 - 27/02/2023
+
+* Update tabler-icons to 2.5.0
+
 ## [0.0.3] - 06/06/2021
 
 * Update README.

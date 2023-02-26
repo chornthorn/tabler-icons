@@ -1,6 +1,6 @@
 name: tabler_icons
 description: A tabler icon flutter packages based on https://tabler-icons.io/
-version: 0.0.3
+version: 2.5.0
 homepage: https://github.com/chornthorn/tabler-icons
 
 environment:
@@ -16,4 +16,4 @@ flutter:
   fonts:
     - family: TablerIcons
       fonts:
-        - asset: lib/fonts/TablerIcons.ttf
+        - asset: lib/src/fonts/TablerIcons.ttf
