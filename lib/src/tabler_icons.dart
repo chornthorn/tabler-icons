@@ -1,17 +1,48 @@
-library tabler_icons;
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/widgets.dart';
 
+/// [TablerIconData] is a base class for all Tabler Icons. It is used to
+/// generate the TablerIcons class.
 class TablerIconData extends IconData {
+  /// const constructor for TablerIconData by requiring a codePoint
+  /// and a fontFamily. The fontPackage is set to [tabler_icons] by default.
   const TablerIconData(int codePoint)
       : super(
+          /// The codePoint is the hex value of the icon. For example, the
+          /// codePoint for the [TablerIcons.x_1] icon is 0xe800.
           codePoint,
+
+          /// The fontFamily is set to [TablerIcons] by default.
+          /// This is the name of the font that will be used to display the icon.
           fontFamily: 'TablerIcons',
+
+          /// The fontPackage is set to [tabler_icons] by default.
+          /// This is the name of the package that contains the font.
           fontPackage: 'tabler_icons',
         );
 }
 
+/// [TablerIcons] is a collection of icons from the Tabler Icons set.
+/// You can find the full set of icons at https://tabler-icons.io/
+/// The icons are licensed under the MIT license.
+/// To use this class, make sure you have added the following to your
+/// pubspec.yaml file:
+/// ```yaml
+/// dependencies:
+///  tabler_icons: ^any
+///  ```
+///  Then import the package:
+///  ```dart
+///  import 'package:tabler_icons/tabler_icons.dart';
+///  ```
+///  You can then use the icons by using the [Icon] widget:
+///  ```dart
+///  Icon(TablerIcons.x_1)
+///  ```
+///  You can also use the icons by using the [TablerIcons] class directly:
+///  ```dart
+///  TablerIcons.x_1
+///  ```
 class TablerIcons {
   static const IconData x_1 = const TablerIconData(0xe800);
   static const IconData ad = const TablerIconData(0xea02);
